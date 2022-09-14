@@ -84,8 +84,7 @@ function App() {
       <h1>A Magical Memory Game</h1>
       <button onClick={shuffleCards}>Start a New Game</button>
       <div className="turns">
-        You have taken <b><u>{turns}</u></b> {turns === 1 ? 'turn' : 'turns'}. <br/>
-        { turns === 0 ? ' Good luck! What are you waiting for?' : ''}
+        You have taken <b><u>{turns}</u></b> {turns === 1 ? 'turn' : 'turns'}. 
         { turns >= 21 ? ' pathetic!' : '' }
       </div>
       
